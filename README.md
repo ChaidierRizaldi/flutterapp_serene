@@ -1,6 +1,6 @@
 # flutterapp_cozy
 
-Membangun aplikasi pencari kos menggunakan framework Flutter dan bahasa pemrograman Dart.
+Membangun aplikasi pencari kos menggunakan framework Flutter dan bahasa pemrograman Dart. Proses pembelajaran proyek yaitu dari tahapan Slicing desain, penerapan arsitektur BLoC, sampai tahap deploy ke Firebase App Distribusion untuk melakukan testing.
 
 ## Getting Started
 
