@@ -1,6 +1,6 @@
 # flutterapp_cozy
 
-A new Flutter project.
+Membangun aplikasi pencari kos menggunakan framework Flutter dan bahasa pemrograman Dart.
 
 ## Getting Started
 
