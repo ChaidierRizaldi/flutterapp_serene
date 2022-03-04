@@ -34,7 +34,7 @@ class ErrorPage extends StatelessWidget {
               ),
               Text(
                 'Seems like the page that you were\nrequested is already gone',
-                style: greyTextStyle.copyWith(
+                style: secondaryTextStyle.copyWith(
                   fontSize: 16,
                 ),
                 textAlign: TextAlign.center,
@@ -54,13 +54,13 @@ class ErrorPage extends StatelessWidget {
                         ),
                         (route) => false);
                   },
-                  color: purpleColor,
+                  color: darkblueColor,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(17),
                   ),
                   child: Text(
                     'Back to Home',
-                    style: whiteTextStyle.copyWith(
+                    style: creamTextStyle.copyWith(
                       fontSize: 18,
                     ),
                   ),

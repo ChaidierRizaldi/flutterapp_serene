@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color purpleColor = Color(0xff5843BE);
-Color orangeColor = Color(0xffFF9376);
-Color blackColor = Color(0xff000000);
-Color whiteColor = Color(0xffFFFFFF);
-Color greyColor = Color(0xff82868E);
+Color darkblueColor = Color(0xff364857);
+Color navyblueColor = Color(0xff125D98);
+Color blackColor = Color(0xff343A40);
+Color whiteColor = Color(0xffDDDDDD);
+Color greyColor = Color(0xff989BA1);
+Color creamColor = Color(0xffFFE9D6);
+Color greendarkColor = Color(0xff114E60);
+Color redColor = Color(0xffCB3737);
 
 double edge = 24;
 
@@ -14,22 +17,27 @@ TextStyle blackTextStyle = GoogleFonts.poppins(
   color: blackColor,
 );
 
-TextStyle whiteTextStyle = GoogleFonts.poppins(
-  fontWeight: FontWeight.w500,
-  color: whiteColor,
-);
-
 TextStyle greyTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w300,
   color: greyColor,
 );
 
-TextStyle purpleTextStyle = GoogleFonts.poppins(
-  fontWeight: FontWeight.w500,
-  color: purpleColor,
-);
-
 TextStyle regularTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w400,
   color: blackColor,
+);
+
+TextStyle secondaryTextStyle = GoogleFonts.poppins(
+  fontWeight: FontWeight.w400,
+  color: greendarkColor,
+);
+
+TextStyle darkblueTextStyle = GoogleFonts.poppins(
+  fontWeight: FontWeight.w400,
+  color: darkblueColor,
+);
+
+TextStyle creamTextStyle = GoogleFonts.poppins(
+  fontWeight: FontWeight.w400,
+  color: creamColor,
 );

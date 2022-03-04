@@ -81,13 +81,13 @@ class DetailPage extends StatelessWidget {
                                 Text.rich(
                                   TextSpan(
                                     text: '\$${space.price}',
-                                    style: purpleTextStyle.copyWith(
+                                    style: darkblueTextStyle.copyWith(
                                       fontSize: 16,
                                     ),
                                     children: [
                                       TextSpan(
                                         text: '/ month',
-                                        style: greyTextStyle.copyWith(
+                                        style: secondaryTextStyle.copyWith(
                                           fontSize: 16,
                                         ),
                                       ),
@@ -146,7 +146,7 @@ class DetailPage extends StatelessWidget {
                               total: space.numberOfBedrooms,
                             ),
                             FacilityItem(
-                              name: 'Big Lemari',
+                              name: 'cupboard',
                               imageUrl: 'assets/icon_cupboard.png',
                               total: space.numberOfCupboards,
                             ),
@@ -216,7 +216,7 @@ class DetailPage extends StatelessWidget {
                           children: [
                             Text(
                               '${space.address}\n${space.city}',
-                              style: greyTextStyle,
+                              style: secondaryTextStyle,
                             ),
                             InkWell(
                               onTap: () {
@@ -243,13 +243,13 @@ class DetailPage extends StatelessWidget {
                           onPressed: () {
                             launchUrl(space.phone);
                           },
-                          color: purpleColor,
+                          color: darkblueColor,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(17),
                           ),
                           child: Text(
                             'Book Now',
-                            style: whiteTextStyle.copyWith(
+                            style: creamTextStyle.copyWith(
                               fontSize: 18,
                             ),
                           ),

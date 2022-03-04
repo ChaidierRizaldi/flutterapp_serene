@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
               padding: EdgeInsets.only(left: edge),
               child: Text(
                 'Mencari kosan yang cozy',
-                style: greyTextStyle.copyWith(
+                style: secondaryTextStyle.copyWith(
                   fontSize: 16,
                 ),
               ),

@@ -26,13 +26,13 @@ class FacilityItem extends StatelessWidget {
         Text.rich(
           TextSpan(
             text: '$total',
-            style: purpleTextStyle.copyWith(
+            style: darkblueTextStyle.copyWith(
               fontSize: 14,
             ),
             children: [
               TextSpan(
                 text: ' $name',
-                style: greyTextStyle.copyWith(
+                style: secondaryTextStyle.copyWith(
                   fontSize: 14,
                 ),
               ),

@@ -29,7 +29,7 @@ class BottomnavbarItem extends StatelessWidget {
                 width: 30,
                 height: 2,
                 decoration: BoxDecoration(
-                  color: purpleColor,
+                  color: darkblueColor,
                   borderRadius: BorderRadius.vertical(
                     top: Radius.circular(1000),
                   ),
