@@ -229,7 +229,7 @@ class HomePage extends StatelessWidget {
           horizontal: edge,
         ),
         decoration: BoxDecoration(
-          color: Color(0xffF6F7F8),
+          color: creamColor,
           borderRadius: BorderRadius.circular(23),
         ),
         child: Row(
