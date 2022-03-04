@@ -19,7 +19,7 @@ class SplashPage extends StatelessWidget {
                 child: Image.asset('assets/splash_image.png'),
               ),
               Padding(
-                padding: const EdgeInsets.only(
+                padding: EdgeInsets.only(
                   top: 50,
                   left: 30,
                 ),
@@ -49,7 +49,7 @@ class SplashPage extends StatelessWidget {
                     ),
                     Text(
                       'Stop membuang banyak waktu\npada tempat yang tidak habitable',
-                      style: greyTextStyle.copyWith(
+                      style: secondaryTextStyle.copyWith(
                         fontSize: 16,
                       ),
                     ),
@@ -68,13 +68,13 @@ class SplashPage extends StatelessWidget {
                             ),
                           );
                         },
-                        color: purpleColor,
+                        color: darkblueColor,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(17),
                         ),
                         child: Text(
                           'Explore Now',
-                          style: whiteTextStyle.copyWith(
+                          style: creamTextStyle.copyWith(
                             fontSize: 18,
                           ),
                         ),

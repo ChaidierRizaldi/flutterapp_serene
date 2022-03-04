@@ -43,7 +43,7 @@ class SpaceCard extends StatelessWidget {
                       width: 70,
                       height: 30,
                       decoration: BoxDecoration(
-                          color: purpleColor,
+                          color: darkblueColor,
                           borderRadius: BorderRadius.only(
                             bottomLeft: Radius.circular(25),
                           )),
@@ -58,7 +58,7 @@ class SpaceCard extends StatelessWidget {
                           ),
                           Text(
                             '${space.rating}/5',
-                            style: whiteTextStyle.copyWith(
+                            style: creamTextStyle.copyWith(
                               fontSize: 13,
                             ),
                           ),
@@ -88,13 +88,13 @@ class SpaceCard extends StatelessWidget {
               Text.rich(
                 TextSpan(
                   text: '\$${space.price}',
-                  style: purpleTextStyle.copyWith(
+                  style: darkblueTextStyle.copyWith(
                     fontSize: 16,
                   ),
                   children: [
                     TextSpan(
                       text: '/ month',
-                      style: greyTextStyle.copyWith(
+                      style: secondaryTextStyle.copyWith(
                         fontSize: 16,
                       ),
                     ),
@@ -106,7 +106,7 @@ class SpaceCard extends StatelessWidget {
               ),
               Text(
                 '${space.city}, ${space.country}',
-                style: greyTextStyle,
+                style: secondaryTextStyle,
               ),
             ],
           )

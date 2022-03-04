@@ -35,7 +35,7 @@ class TipsCard extends StatelessWidget {
             ),
             Text(
               'Updated ${tips.updateAt}',
-              style: greyTextStyle,
+              style: secondaryTextStyle,
             ),
           ],
         ),
@@ -44,7 +44,7 @@ class TipsCard extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.chevron_right,
-            color: greyColor,
+            color: greendarkColor,
           ),
         ),
       ],
