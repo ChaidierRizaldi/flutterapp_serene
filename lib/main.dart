@@ -2,8 +2,8 @@
 // ignore_for_file: use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/Pages/splash_page.dart';
-import 'package:flutterapp_cozy/Providers/space_provider.dart';
+import 'package:flutterapp_serene/Pages/splash_page.dart';
+import 'package:flutterapp_serene/Providers/space_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() {

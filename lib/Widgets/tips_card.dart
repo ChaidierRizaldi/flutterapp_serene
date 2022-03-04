@@ -2,8 +2,8 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_const_constructors_in_immutables
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/Models/tips.dart';
-import 'package:flutterapp_cozy/theme.dart';
+import 'package:flutterapp_serene/Models/tips.dart';
+import 'package:flutterapp_serene/theme.dart';
 
 class TipsCard extends StatelessWidget {
   final Tips tips;

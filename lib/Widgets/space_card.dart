@@ -2,9 +2,9 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace, use_key_in_widget_constructors, prefer_const_constructors_in_immutables
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/Models/space.dart';
-import 'package:flutterapp_cozy/Pages/detail_page.dart';
-import 'package:flutterapp_cozy/theme.dart';
+import 'package:flutterapp_serene/Models/space.dart';
+import 'package:flutterapp_serene/Pages/detail_page.dart';
+import 'package:flutterapp_serene/theme.dart';
 
 class SpaceCard extends StatelessWidget {
   final Space space;

@@ -2,7 +2,7 @@
 // ignore_for_file: prefer_const_constructors_in_immutables, use_key_in_widget_constructors, prefer_const_constructors, unnecessary_string_interpolations
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/theme.dart';
+import 'package:flutterapp_serene/theme.dart';
 
 class FacilityItem extends StatelessWidget {
   final String name;

@@ -3,7 +3,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/Models/space.dart';
+import 'package:flutterapp_serene/Models/space.dart';
 import 'package:http/http.dart' as http;
 
 class SpaceProvider extends ChangeNotifier {
