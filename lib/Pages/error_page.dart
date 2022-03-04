@@ -3,8 +3,8 @@
 // ignore_for_file: prefer_const_constructors, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/Pages/home_page.dart';
-import 'package:flutterapp_cozy/theme.dart';
+import 'package:flutterapp_serene/Pages/home_page.dart';
+import 'package:flutterapp_serene/theme.dart';
 
 class ErrorPage extends StatelessWidget {
   @override

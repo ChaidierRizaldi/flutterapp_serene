@@ -3,7 +3,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/theme.dart';
+import 'package:flutterapp_serene/theme.dart';
 
 class BottomnavbarItem extends StatelessWidget {
   final String imageUrl;

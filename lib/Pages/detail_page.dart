@@ -2,11 +2,11 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, deprecated_member_use, unused_element, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/Models/space.dart';
-import 'package:flutterapp_cozy/Pages/error_page.dart';
-import 'package:flutterapp_cozy/Widgets/facility_item.dart';
-import 'package:flutterapp_cozy/Widgets/rating_item.dart';
-import 'package:flutterapp_cozy/theme.dart';
+import 'package:flutterapp_serene/Models/space.dart';
+import 'package:flutterapp_serene/Pages/error_page.dart';
+import 'package:flutterapp_serene/Widgets/facility_item.dart';
+import 'package:flutterapp_serene/Widgets/rating_item.dart';
+import 'package:flutterapp_serene/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class DetailPage extends StatelessWidget {

@@ -2,14 +2,14 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_equal_for_default_values, missing_return, unused_local_variable
 
 import 'package:flutter/material.dart';
-import 'package:flutterapp_cozy/Models/space.dart';
-import 'package:flutterapp_cozy/Models/tips.dart';
-import 'package:flutterapp_cozy/Providers/space_provider.dart';
-import 'package:flutterapp_cozy/Widgets/bottom_navbar_item.dart';
-import 'package:flutterapp_cozy/Widgets/city_card.dart';
-import 'package:flutterapp_cozy/Widgets/space_card.dart';
-import 'package:flutterapp_cozy/Widgets/tips_card.dart';
-import 'package:flutterapp_cozy/theme.dart';
+import 'package:flutterapp_serene/Models/space.dart';
+import 'package:flutterapp_serene/Models/tips.dart';
+import 'package:flutterapp_serene/Providers/space_provider.dart';
+import 'package:flutterapp_serene/Widgets/bottom_navbar_item.dart';
+import 'package:flutterapp_serene/Widgets/city_card.dart';
+import 'package:flutterapp_serene/Widgets/space_card.dart';
+import 'package:flutterapp_serene/Widgets/tips_card.dart';
+import 'package:flutterapp_serene/theme.dart';
 import 'package:provider/provider.dart';
 import '../Widgets/city_card.dart';
 import '../Models/city.dart';
