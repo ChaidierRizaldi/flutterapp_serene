@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutterapp_cozy">
+    package="com.aldirizaldi.flutterapp_cozy">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="flutterapp_cozy"
+        android:label="Serene"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
