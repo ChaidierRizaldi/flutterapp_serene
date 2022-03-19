@@ -1,4 +1,4 @@
-# flutterapp_cozy
+# flutterapp_serene
 
 A new Flutter project.
 
