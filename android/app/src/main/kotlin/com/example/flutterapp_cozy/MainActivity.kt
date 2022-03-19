@@ -1,4 +1,4 @@
-package com.example.flutterapp_cozy
+package com.aldirizaldi.flutterapp_cozy
 
 import io.flutter.embedding.android.FlutterActivity
 
